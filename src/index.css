@@ -15,13 +15,13 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 220 91% 26%; /* #1E3A8A */
+    --primary: 212 100% 45%; /* #0073E6 */
     --primary-foreground: 0 0% 100%; /* #FFFFFF */
 
-    --secondary: 220 39% 16%; /* #1F2937 */
+    --secondary: 215 25% 27%; /* #374151 */
     --secondary-foreground: 0 0% 100%; /* #FFFFFF */
 
-    --muted: 210 40% 96.1%;
+    --muted: 217 32% 96%; /* #F1F5F9 */
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 217 91% 60%; /* #3B82F6 */
@@ -108,5 +108,13 @@
   h5,
   h6 {
     @apply font-bold;
+  }
+
+  .primary-50 {
+    @apply bg-blue-50;
+  }
+
+  .primary-50 {
+    @apply bg-blue-50;
   }
 }

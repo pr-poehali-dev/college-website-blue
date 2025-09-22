@@ -114,7 +114,7 @@ const Index = () => {
             <div className="relative bg-primary text-white overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src="/img/e9d7576b-fc3c-45f5-868c-87819f5d3be9.jpg"
+                  src="/img/1cbc2c79-228b-4bfa-bdfb-8fb4f9f226e2.jpg"
                   alt="College building"
                   className="w-full h-full object-cover opacity-20"
                 />
@@ -163,21 +163,21 @@ const Index = () => {
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="text-center animate-scale-in">
-                    <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Icon name="Users" size={32} className="text-primary" />
                     </div>
                     <h3 className="text-xl font-semibold mb-2">Опытные преподаватели</h3>
                     <p className="text-gray-600">Практикующие специалисты с многолетним опытом работы</p>
                   </div>
                   <div className="text-center animate-scale-in">
-                    <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Icon name="Laptop" size={32} className="text-primary" />
                     </div>
                     <h3 className="text-xl font-semibold mb-2">Современное оборудование</h3>
                     <p className="text-gray-600">Новейшие компьютерные классы и лаборатории</p>
                   </div>
                   <div className="text-center animate-scale-in">
-                    <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Icon name="Award" size={32} className="text-primary" />
                     </div>
                     <h3 className="text-xl font-semibold mb-2">100% трудоустройство</h3>
@@ -199,7 +199,7 @@ const Index = () => {
                     <Card key={specialty.id} className="hover:shadow-lg transition-shadow animate-fade-in">
                       <CardHeader>
                         <div className="flex items-center mb-4">
-                          <div className="bg-primary-50 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                          <div className="bg-blue-50 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                             <Icon name={specialty.icon as any} size={24} className="text-primary" />
                           </div>
                           <div>
@@ -408,7 +408,7 @@ const Index = () => {
                   <Card key={specialty.id} className="animate-fade-in">
                     <CardHeader>
                       <div className="flex items-start space-x-4">
-                        <div className="bg-primary-50 w-16 h-16 rounded-lg flex items-center justify-center">
+                        <div className="bg-blue-50 w-16 h-16 rounded-lg flex items-center justify-center">
                           <Icon name={specialty.icon as any} size={32} className="text-primary" />
                         </div>
                         <div className="flex-1">
@@ -459,7 +459,7 @@ const Index = () => {
                 ].map((teacher, index) => (
                   <Card key={index} className="animate-fade-in">
                     <CardHeader>
-                      <div className="w-24 h-24 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <div className="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
                         <Icon name="User" size={40} className="text-primary" />
                       </div>
                       <CardTitle className="text-center">{teacher.name}</CardTitle>
